@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: startboot1
-          image: asif1993/startboot1:1.1
+          image: asif1993/startboot1-webapp:1.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
